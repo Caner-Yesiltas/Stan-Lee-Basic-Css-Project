@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container {
   width: 100%;
   height: 100vh;
@@ -7,10 +13,18 @@
 }
 
 .stanleephoto {
-  background-position: center;
+  border: 5px solid rebeccapurple;
+  display: inline-block;
+  height: 20vh;
+  width: ;
+  text-align: center;
 }
 
 h1 {
   text-align: center;
   font-size: xx-large;
+}
+.stanleephoto img {
+  max-width: 100%;
+  height: auto;
 }
