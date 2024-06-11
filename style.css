@@ -13,18 +13,26 @@
 }
 
 .stanleephoto {
-  border: 5px solid rebeccapurple;
   display: inline-block;
   width: 100%;
   text-align: center;
+  margin-top: 60px;
 }
 
 h1 {
   text-align: center;
-  font-size: xx-large;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 30px;
+  font-size: 50px;
 }
 .stanleephoto img {
   max-width: 20vw;
   height: 15vw;
   border-radius: 20px;
+}
+
+span {
+  color: red;
 }
